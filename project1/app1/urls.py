@@ -20,6 +20,10 @@ from . import views
 
 urlpatterns = [
     path('',views.que,name="que"),
-    path('answer',views.answer, name="answer"),
-    path('login',views.login, name="login")
+    path('answer/',views.answer, name="answer"),
+    path('login/',views.login, name="login"),
+    path('loginn/',views.login, name="login"),
+    path('logged/',views.logged, name="logged"),
+    path('dashBoard/',views.dashBoard, name="dashBoard")
+  
 ]
